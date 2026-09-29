@@ -1,0 +1,56 @@
+PING 192.168.92.1 (192.168.92.1) 56(84) bytes of data.
+64 bytes from 192.168.92.1: icmp_seq=1 ttl=64 time=0.260 ms
+64 bytes from 192.168.92.1: icmp_seq=2 ttl=64 time=0.228 ms
+64 bytes from 192.168.92.1: icmp_seq=3 ttl=64 time=0.241 ms
+64 bytes from 192.168.92.1: icmp_seq=4 ttl=64 time=0.242 ms
+
+--- 192.168.92.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3091ms
+rtt min/avg/max/mdev = 0.228/0.242/0.260/0.011 ms
+[ data + %T ] ping 192.168.92.1 -c 2
+[29.09.2026 13:48:20] Хост НЕ доступен
+[29.09.2026 13:48:43] Хост НЕ доступен
+[29.09.2026 13:49:22] Хост НЕ доступен
+[29.09.2026 13:50:22] Хост доступен
+[29.09.2026 13:50:31] Хост доступен
+[29.09.2026 13:52:06] [1.1.1.1] Хост доступен
+[29.09.2026 13:52:45] 1.1.1.1 Хост доступен
+[29.09.2026 13:55:43] 1.1.1.1 Хост доступен
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=128 time=29.3 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=128 time=29.5 ms
+
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 29.306/29.419/29.532/0.113 ms
+[29.09.2026 13:58:23] 1.1.1.1 Хост доступен
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=128 time=29.6 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=128 time=29.2 ms
+
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 29.190/29.389/29.589/0.199 ms
+[29.09.2026 14:00:45] 1.1.1.1 Хост доступен
+PING 0.0.0.0 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.078 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.029 ms
+
+--- 0.0.0.0 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1029ms
+rtt min/avg/max/mdev = 0.029/0.053/0.078/0.024 ms
+[29.09.2026 14:01:02] 0.0.0.0 Хост доступен
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=128 time=29.8 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=128 time=29.6 ms
+
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 29.557/29.688/29.819/0.131 ms
+[29.09.2026 14:01:55] 1.1.1.1 Хост доступен
+PING 192.163.1.1 (192.163.1.1) 56(84) bytes of data.
+
+--- 192.163.1.1 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1029ms
+
+[29.09.2026 14:02:03] 192.163.1.1 Хост НЕ доступен
